@@ -2,11 +2,11 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Inicio from './screeens/';
-import Catalogo from './screeens/';
-import Detalhes from './screeens/';
-import Cadastrar from '.';
-import Editar from '.'; 
+import Inicio from './Screeens/Inicio';
+import Catalogo from './Screeens/Catalago';
+import Detalhes from './Screeens/Detalhes';
+import Cadastrar from './Screeens/Cadastrar';
+import Editar from './Screeens/Editar'; 
 
 const Stack = createNativeStackNavigator();
 
